@@ -41,6 +41,7 @@ export default function Home() {
         onChange={(evt) => setText(evt.target.value)}
       />
       <button onClick={onSendMessage}>Add</button>
+	  <div>hi</div>
     </div>
   );
 }
